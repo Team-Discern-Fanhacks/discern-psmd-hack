@@ -1,0 +1,20 @@
+- Cutscene: Back To Work
+Black screen. No music playing.
+Hero: "(...)" No portrait.
+Hero: "(...)" No portrait.
+Hero: "(...ngh... -A-morning already...?)" No portrait.
+Hero: "(I didn't sleep a wink...)" No portrait.
+Hero: "(...)" No portrait.
+Fades in, Hero is sleeping in Expedition Society HQ in default morning position.
+Hero: Waking animation. Looking around animation. "(Another day...)" Portrait Six, Depressed Portrait.
+Hero: Turns to empty bed and waits one second. "(It's been a month, but...)" Portrait Six, Depressed Portrait.
+Hero: "(It just doesn't feel the same without [partner].)" Portrait Six, Depressed Portrait.
+Hero: Turns back to doorway, angled to the middle of the opening. "(...Well, I should probably get going.)" Portrait Six, Depressed Portrait.
+Fades to black.
+~
+Fades back in. Load in Ampharos, Jirachi, Dedenne, Buizel, Bunnelby, Mawile, Hero, Archen and Swirlix in their usual positions for the rollcall. Cue music.
+Ampharos: "Give it your all out there, team!" Emotion Lines Effect, Portrait 1, Normal Portrait.
+All: Emotion Lines Effect, No portrait. "Yes, sir!"
+All but Hero: Move to other positions. Mawile, Dedenne, Ampharos and Jirachi head upstairs, Swirlix heads to the kitchen, and Archen, Buizel and Bunnelby go to the plaza like normal. Hero turns to leave, but doesn't. Camera doesn't change.
+Hero: After all leave. "(Hmm... where should I go today...?)" Portrait 18, Unamused Portrait.
+Hero: Walks slowly out of the front entrance to the plaza. Fades out.

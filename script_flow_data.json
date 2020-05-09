@@ -1,0 +1,35 @@
+{
+  "output": [
+    {
+      "FollowGroup": {
+        "debug_groupname": "Main scenario",
+        "data": [
+          {
+            "FollowGroup": {
+              "debug_groupname": "chapter01",
+              "data": [
+                {
+      						"Scenario": {
+      							"flowtype": "normal",
+      							"entry": [
+                      "hanyou_tsuginoasa01"
+      							],
+      							"comment": "",
+      							"socket": {
+      								"socket_in": {
+      									"start": "$START"
+      								},
+      								"socket_out": {
+      									"next": "$START"
+      								}
+      							}
+      						}
+      					}
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
