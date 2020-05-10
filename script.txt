@@ -18,3 +18,50 @@ All: Emotion Lines Effect, No portrait. "Yes, sir!"
 All but Hero: Move to other positions. Mawile, Dedenne, Ampharos and Jirachi head upstairs, Swirlix heads to the kitchen, and Archen, Buizel and Bunnelby go to the plaza like normal. Hero turns to leave, but doesn't. Camera doesn't change.
 Hero: After all leave. "(Hmm... where should I go today...?)" Portrait 18, Unamused Portrait.
 Hero: Walks slowly out of the front entrance to the plaza. Fades out.
+~
+Fades into plaza, Hero walking slowly down from the top, centered. Stops by the cafe entrance, in front of the morning group doing exercises.
+Buizel is talking with Kecleon, who nods with the Emotion Lines Effect when the hero comes to a stop from moving. Buizel does the double-jump animation and replies back with the Emotion Lines Effect. They talk some more, then Buizel heads down to the Lapras room. This does not impact the cutscene, it's just a background element to add to it.
+Hero: Once he stops moving. "(It's like the fight with Dark Matter never even happened.)" Portrait 18, Unamused Portrait.
+Hero: "(Everyone's back in their normal routine but me.)" Portrait 18, Unamused Portrait.
+Hero: Turns to look at the leader of the exercising group. "(Haha... -A-I don't know if I should be proud we did that.)" Portrait 1, Normal Portrait.
+Hero: Saddened animation, camera zooms in slightly. "(If we hadn't gone through with it... would [partner gender]...)" Portrait Six, Depressed Portrait.
+Hero: Turns back center and shakes head. Normal camera. "(No. I'm just in a funk today... gotta shake it off.)" Portrait 18, Unamused Portrait.
+Hero: Double-jump animation. "(Yeah. An expedition should make me feel better. It always does.)" Portrait 1, Normal Portrait.
+
+Part Two: Flicker of Light
+Cutscene: Woes and Worries
+- Expedition Society worries about hero. Hero heads to Revelation Mountain with Espurr.
+Fades in. Load in Ampharos, Jirachi, Dedenne, Buizel, Bunnelby, Mawile, Hero, Archen and Swirlix in their usual positions for the rollcall.
+Ampharos: "Give it your all out there, team!" Emotion Lines Effect, Portrait 1, Normal Portrait.
+All: Emotion Lines Effect, No portrait. "Yes, sir!"
+All: Select pokemon move to other positions. Jirachi floats upstairs, Swirlix heads to the kitchen, and Archen, Buizel, Bunnelby and the hero go to the plaza. Ampharos and Mawile stay in their positions. Dedenne turns to leave.
+Ampharos: Turns to Dedenne. Camera zooms in a little bit to fit them in a smaller area. "Dedenne. A question, before we go." Portrait 1, Normal Portrait. Dedenne stops, emotion curiosity effect.
+Dedenne: Turns to Ampharos. Mawile also rotates, but only out of curiosity, doesn't say anything yet. "Yes, sir? What is it?" Portrait 5, Confused Portrait.
+Ampharos: "Might you also worry about [Hero]?" Portrait 1, Normal Portrait.
+Ampharos: "Helping with the Nexus is quite the lonely job." Portrait 1, Normal Portrait.
+Dedenne: Dropping Sweat (Multiple) Effect. "It is, yes... I remember my turn rather well." Portrait 3, Pained Portrait.
+Dedenne: Camera zooms on Dedenne, slightly to the left of symmetry. Dedenne looks down. "So much writing... -pause-so many pokémon." Portrait 6, Depressed Portrait.
+Dedenne: Double-jump animation. "Glad I don't have to do that anymore!" Emotion Lines Effect. Portrait 2, Happy Portrait.
+Dedenne: Camera change to be closer to Dedenne, still rotated to see all pokémon. "So yeah, I might be a little worried. But [Hero] can handle it!" Portrait 1, Normal Portrait.
+Mawile: Camera change to middle of the room again. "It is concerning. What do you suppose we do, Ampharos?" Portrait 5, Confused Portrait.
+Ampharos: Rotates to center. "Well..." Portrait 1, Normal Portrait.
+Ampharos: Camera change to zoom in with excitement lines. Hand out and up animation. "I don't know!" No portrait. Screen flashes twice.
+Ampharos: Camera zooms back to normal. Sweat drop effect from Mawile and Dedenne. "Perhaps you could offer to accompany [him/her] on some of their expeditions?" Portrait 1, Normal Portrait.
+Ampharos: "I'm certain that they would appreciate the offer." Portrait 1, Normal Portrait.
+Dedenne: "It would be my pleasure!" Portrait 2, Happy Portrait.
+Mawile: "Of course." Portrait 2, Normal Portrait.
+Ampharos: "Lovely! Then a good day it shall be!" Portrait 2, Happy Portrait.
+Dedenne: Ampharos starts walking down and to the right with wandering animation. Camera follows slightly. "Chief." Portrait 1, Normal Portrait. Ampharos stops.
+Ampharos: Dropping Sweat (Multiple) Effect. "Silly me... -A-I swear, if you weren't around, Dedenne." Portrait 14, Dizzy Portrait. Walks upstairs with the other mons and the screen fades to black.
+~
+Fades into the plaza. Exercise group is in session, Miltank is running widly around the town. Meowth can be seen out of his house and talking (with Talking Animation periodically) to an Unown below the Glorious Gold Exchange.
+Hero is standing by the café, having a conversation with Buizel. Camera slowly turns downwards from the path to the Expedition Society to the main square to by Klefki's shop. They stand in front of it.
+Buizel: "Are you sure you have to take some time off?" Portrait 1, Normal Portrait.
+Buizel: "I mean... without you here, we might destroy the Nexus again." Portrait 1, Normal Portrait.
+Buizel: Dropping Sweat (Multiple) Effect. Looks down. "I don't miss those times. Really, I don't." Portrait 3, Pained Portrait.
+Hero: Camera switches to focus on Hero instead of both pokémon. "(Even though it may leave them in a tough spot, I think this'll be good for me.)" Portrait 1, Normal Portrait.
+Hero: "(A nice break to just relax with everyone back in Serene Village... <pause>yeah.)" Portrait 1, Normal Portrait.
+Hero: "(This will be a good thing.)" Portrait 1, Normal Portrait.
+Buizel: Camera focuses back to both. Turns away. "Well, I'll alert the Chief. Safe travels, [Hero]!" Portrait 1, Normal Portrait.
+Buizel: Begins walking away, but stops. Camera looks down the walkway. Turns a couple of degrees. "Please come back soon. I just know I'll have to wake up Jirachi again..." Portrait 1, Normal Portrait. Walks away out of frame.
+Regain control, head to Serene Village the only option open for exploration. Lapras doesn't let you by.
