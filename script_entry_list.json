@@ -1,10 +1,10 @@
 {
   "entries": [
     {
-      "entity_name": "hanyou_tsuginoasa01",
+      "entity_name": "discern_c01_s01_01",
       "map_name": "hanyou_tsuginoasa01",
       "lua_path": "discern/chapter01/scene01/talk.lua",
-      "plb_path": "hanyou_tsuginoasa01.plb",
+      "plb_path": "discern_c01_s01_01.plb",
       "flags": [
         0,
         1,
@@ -12,6 +12,21 @@
         0
       ]
     },
+    {
+      "entity_name": "discern_c01_s01_02",
+      "map_name": "hanyou_chourei01",
+      "lua_path": "discern/chapter01/scene01/talk.lua",
+      "plb_path": "discern_c01_s01_02.plb",
+      "flags": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+
+
+
 
 
 

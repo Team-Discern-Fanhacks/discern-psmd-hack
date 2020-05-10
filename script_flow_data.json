@@ -12,7 +12,8 @@
       						"Scenario": {
       							"flowtype": "normal",
       							"entry": [
-                      "hanyou_tsuginoasa01"
+                      "discern_c01_s01_01",
+                      "discern_c01_s01_02"
       							],
       							"comment": "",
       							"socket": {

@@ -1,0 +1,924 @@
+{
+  "sections": [
+    {
+      "name": "discern_c01_s01_02",
+      "groupRefs": [
+        {
+          "group": "TW01_COMM01F_BEDSET01",
+          "ukn": 1
+        }
+      ],
+      "items": [
+        {
+          "type": "CameraAtType",
+          "id": "CAMERA_00",
+          "label": "LabelCameraDefault",
+          "layerIdx": 0,
+          "posX": 0.0561386272,
+          "posY": -4.363465,
+          "posZ": -0.824364841,
+          "ukn1": 0,
+          "ukn2": 0,
+          "extraData": [
+            0,
+            0
+          ]
+        },
+        {
+          "type": "CameraEyeType",
+          "id": "CAMERA_00",
+          "label": "LabelCameraDefault",
+          "layerIdx": 0,
+          "posX": 0.0561386272,
+          "posY": 9.162679,
+          "posZ": 2.82057381,
+          "ukn1": 0,
+          "ukn2": 0,
+          "extraData": [
+            0
+          ]
+        },
+        {
+          "type": "CharaType",
+          "id": "DENRYUU",
+          "label": "DENRYUU",
+          "layerIdx": 0,
+          "posX": 0,
+          "posY": -1.87628961,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        },
+        {
+          "type": "CharaType",
+          "id": "AAKEN",
+          "label": "AAKEN",
+          "layerIdx": 0,
+          "posX": 0.7765271,
+          "posY": 0.8183901,
+          "posZ": 0,
+          "ukn1": 3274309632,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        },
+        {
+          "type": "CharaType",
+          "id": "BUIZERU",
+          "label": "BUIZERU",
+          "layerIdx": 0,
+          "posX": 0.165383413,
+          "posY": -0.122900061,
+          "posZ": 0,
+          "ukn1": 1127481344,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        },
+        {
+          "type": "CharaType",
+          "id": "HORUBII",
+          "label": "HORUBII",
+          "layerIdx": 0,
+          "posX": 1.03605318,
+          "posY": -0.193611264,
+          "posZ": 0,
+          "ukn1": 3273654272,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        },
+        {
+          "type": "CharaType",
+          "id": "JIRAACHI",
+          "label": "JIRAACHI",
+          "layerIdx": 0,
+          "posX": -1.57671285,
+          "posY": -0.627829432,
+          "posZ": 0,
+          "ukn1": 1125515264,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        },
+        {
+          "type": "CharaType",
+          "id": "KUCHIITO",
+          "label": "KUCHIITO",
+          "layerIdx": 0,
+          "posX": 1.7692045,
+          "posY": -0.5514463,
+          "posZ": 0,
+          "ukn1": 3272998912,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        },
+        {
+          "type": "CharaType",
+          "id": "PEROPPAFU",
+          "label": "PEROPPAFU",
+          "layerIdx": 0,
+          "posX": 1.75246274,
+          "posY": 0.696333051,
+          "posZ": 0,
+          "ukn1": 3272998912,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        },
+        {
+          "type": "CharaType",
+          "id": "DEDENNE",
+          "label": "DEDENNE",
+          "layerIdx": 0,
+          "posX": -0.784987,
+          "posY": -0.5657139,
+          "posZ": 0,
+          "ukn1": 1126170624,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        },
+        {
+          "type": "CharaType",
+          "id": "HERO",
+          "label": "PIKACHUU",
+          "layerIdx": 0,
+          "posX": -0.3997877,
+          "posY": 0.7359393,
+          "posZ": 0,
+          "ukn1": 1127481344,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        },
+        {
+          "type": "PointType",
+          "id": "P00_PEROPPAFU",
+          "label": "LabelPointDefault",
+          "layerIdx": 1,
+          "posX": 7.752024,
+          "posY": -0.168522313,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "P00_JIRAACHI",
+          "label": "LabelPointDefault",
+          "layerIdx": 2,
+          "posX": -0.4493927,
+          "posY": -3.9883604,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "P01_JIRAACHI",
+          "label": "LabelPointDefault",
+          "layerIdx": 2,
+          "posX": -0.4493927,
+          "posY": -8.796863,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "P00_KUCHIITO",
+          "label": "LabelPointDefault",
+          "layerIdx": 2,
+          "posX": 0.539271235,
+          "posY": -3.24686241,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "P01_KUCHIITO",
+          "label": "LabelPointDefault",
+          "layerIdx": 2,
+          "posX": 0.539271235,
+          "posY": -8.549697,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "P00_AAKEN",
+          "label": "LabelPointDefault",
+          "layerIdx": 1,
+          "posX": 0.269635618,
+          "posY": 6.302733,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "P00_BUIZERU",
+          "label": "LabelPointDefault",
+          "layerIdx": 1,
+          "posX": 0.165383413,
+          "posY": 6.302733,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "P00_HORUBII",
+          "label": "LabelPointDefault",
+          "layerIdx": 1,
+          "posX": 0.3527465,
+          "posY": 6.302733,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "P00_DENRYUU",
+          "label": "LabelPointDefault",
+          "layerIdx": 2,
+          "posX": 0,
+          "posY": -8.996086,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "P00_DEDENNE",
+          "label": "LabelPointDefault",
+          "layerIdx": 2,
+          "posX": -0.434178382,
+          "posY": -7.974333,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "D_HERO_OUT",
+          "label": "LabelPointDefault",
+          "layerIdx": 1,
+          "posX": 0.165383413,
+          "posY": 6.302733,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "CameraAtType",
+          "id": "CAMERA_01",
+          "label": "LabelCameraDefault",
+          "layerIdx": -1,
+          "posX": -0.3800435,
+          "posY": 0.7077178,
+          "posZ": 0.06623342,
+          "ukn1": 0,
+          "ukn2": 1,
+          "extraData": [
+            0,
+            0
+          ]
+        },
+        {
+          "type": "CameraEyeType",
+          "id": "CAMERA_01",
+          "label": "LabelCameraDefault",
+          "layerIdx": -1,
+          "posX": -0.3800435,
+          "posY": 7.707718,
+          "posZ": 5.26623344,
+          "ukn1": 0,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "type": "GroundMapType",
+          "id": "TW01_COMM01F",
+          "label": "TW01_COMM01F",
+          "ukn1": 0,
+          "ukn2": 0,
+          "ukn3": 0,
+          "ukn4": 0
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "type": "MoveMapSet",
+      "id": "MoveMapSet",
+      "items": [
+        {
+          "type": "RangeType",
+          "id": "MV#FM_TW01_COMM02F",
+          "label": "",
+          "layerIdx": -1,
+          "posX": 0.00221795659,
+          "posY": -5.99959946,
+          "posZ": 2.9664121E-05,
+          "ukn1": 1063284384,
+          "ukn2": 1,
+          "extraData": [
+            1077936128,
+            1065353216,
+            1056964608
+          ]
+        },
+        {
+          "type": "RangeType",
+          "id": "MV#FM_TW01_COMM04F",
+          "label": "",
+          "layerIdx": -1,
+          "posX": 8.045395,
+          "posY": -1.98970819,
+          "posZ": 2.9664121E-05,
+          "ukn1": 1063284384,
+          "ukn2": 1,
+          "extraData": [
+            1073741824,
+            1065353216,
+            1056964608
+          ]
+        },
+        {
+          "type": "RangeType",
+          "id": "MV#FM_TW01_DISTRICT_B",
+          "label": "",
+          "layerIdx": -1,
+          "posX": -0.0344996378,
+          "posY": 7.33816051,
+          "posZ": -0.0127730928,
+          "ukn1": 1127481344,
+          "ukn2": 1,
+          "extraData": [
+            1077936128,
+            1065353216,
+            1056964608
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BasicStartPointSet",
+      "id": "BasicStartPointSet",
+      "items": [
+        {
+          "type": "PointType",
+          "id": "START#FM_TW01_COMM02F",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": -0.03953525,
+          "posY": -4.58213854,
+          "posZ": 0.249641925,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "START#FM_TW01_COMM04F",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": 8.040682,
+          "posY": -0.421017945,
+          "posZ": 0.249641925,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "START#FM_TW01_DISTRICT_B",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": -0.05341662,
+          "posY": 5.95981169,
+          "posZ": 0,
+          "ukn1": 3274941737,
+          "ukn2": 1
+        }
+      ]
+    },
+    {
+      "type": "ObjSet",
+      "id": "ObjSet",
+      "sections": [
+        {
+          "type": "ObjSet.TW01_COMM01F_BEDSET01",
+          "id": "TW01_COMM01F_BEDSET01",
+          "groups": [
+            {
+              "type": "ObjSet.TW01_COMM01F_BEDSET01.TW00_HOME01_BED01",
+              "id": "TW00_HOME01_BED01",
+              "items": [
+                {
+                  "type": "GimmickArtType",
+                  "id": "STRAWBED",
+                  "label": "STRAWBED",
+                  "layerIdx": -1,
+                  "posX": -8.973112,
+                  "posY": -5.07900667,
+                  "posZ": 0,
+                  "ukn1": 0,
+                  "ukn2": 1,
+                  "extraData": [
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ObjSet.TW01_COMM01F_BEDSET01.TW00_HOME01_BED02",
+              "id": "TW00_HOME01_BED02",
+              "items": [
+                {
+                  "type": "GimmickArtType",
+                  "id": "STRAWBED_2",
+                  "label": "STRAWBED_2",
+                  "layerIdx": -1,
+                  "posX": -7.55224466,
+                  "posY": -5.07900667,
+                  "posZ": 0,
+                  "ukn1": 0,
+                  "ukn2": 1,
+                  "extraData": [
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ObjSet.TW01_COMM01F_BEDSET02",
+          "id": "TW01_COMM01F_BEDSET02",
+          "items": [
+            {
+              "type": "GimmickArtType",
+              "id": "STRAWBED_NIGHT",
+              "label": "STRAWBED_NIGHT",
+              "layerIdx": -1,
+              "posX": -8.973112,
+              "posY": -5.07900667,
+              "posZ": 0,
+              "ukn1": 0,
+              "ukn2": 1,
+              "extraData": [
+                0
+              ]
+            },
+            {
+              "type": "GimmickArtType",
+              "id": "STRAWBED_NIGHT_2",
+              "label": "STRAWBED_NIGHT_2",
+              "layerIdx": -1,
+              "posX": -7.55224466,
+              "posY": -5.07900667,
+              "posZ": 0,
+              "ukn1": 0,
+              "ukn2": 1,
+              "extraData": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ObjSet.TW01_COMM01F_EV220",
+          "id": "TW01_COMM01F_EV220",
+          "groups": [
+            {
+              "type": "ObjSet.TW01_COMM01F_EV220.TW00_HOME01_BED01",
+              "id": "TW00_HOME01_BED01",
+              "items": [
+                {
+                  "type": "GimmickArtType",
+                  "id": "STRAWBED",
+                  "label": "STRAWBED",
+                  "layerIdx": -1,
+                  "posX": -8.973112,
+                  "posY": -5.07900667,
+                  "posZ": 0,
+                  "ukn1": 0,
+                  "ukn2": 1,
+                  "extraData": [
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ObjSet.TW01_COMM01F_EV220.TW00_HOME01_BED02",
+              "id": "TW00_HOME01_BED02",
+              "items": [
+                {
+                  "type": "GimmickArtType",
+                  "id": "STRAWBED_2",
+                  "label": "STRAWBED_2",
+                  "layerIdx": -1,
+                  "posX": -7.55224466,
+                  "posY": -5.07900667,
+                  "posZ": 0,
+                  "ukn1": 0,
+                  "ukn2": 1,
+                  "extraData": [
+                    0
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "type": "CharaType",
+              "id": "KAKUREON",
+              "label": "KAKUREON",
+              "layerIdx": -1,
+              "posX": 2.25022912,
+              "posY": -2.06131029,
+              "posZ": 0,
+              "ukn1": 3259498496,
+              "ukn2": 1,
+              "extraData": [
+                0
+              ]
+            },
+            {
+              "type": "GimmickArtType",
+              "id": "STORE_BANK",
+              "label": "STORE_BANK",
+              "layerIdx": -1,
+              "posX": 1.57303369,
+              "posY": -3.27715349,
+              "posZ": 0,
+              "ukn1": 0,
+              "ukn2": 1,
+              "extraData": [
+                0
+              ]
+            },
+            {
+              "type": "CharaType",
+              "id": "RUCHABURU",
+              "label": "RUCHABURU",
+              "layerIdx": -1,
+              "posX": -2.89742541,
+              "posY": -0.51215,
+              "posZ": 0,
+              "ukn1": 1116471296,
+              "ukn2": 1,
+              "extraData": [
+                0
+              ]
+            },
+            {
+              "type": "CharaType",
+              "id": "DESUKAAN",
+              "label": "DESUKAAN",
+              "layerIdx": -1,
+              "posX": 3.224674,
+              "posY": -0.5402975,
+              "posZ": 0.00255201547,
+              "ukn1": 3263954944,
+              "ukn2": 1,
+              "extraData": [
+                0
+              ]
+            },
+            {
+              "type": "CharaType",
+              "id": "KUREFFI",
+              "label": "KUREFFI",
+              "layerIdx": -1,
+              "posX": -1.91515839,
+              "posY": -2.65789914,
+              "posZ": 0,
+              "ukn1": 1106247680,
+              "ukn2": 1,
+              "extraData": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ObjSet.DefaultSet",
+          "id": "DefaultSet",
+          "items": [
+            {
+              "type": "RangeType",
+              "id": "CHK_COMM1F_SB_01",
+              "label": "",
+              "layerIdx": -1,
+              "posX": 5.775575,
+              "posY": -1.83245146,
+              "posZ": 0,
+              "ukn1": 0,
+              "ukn2": 1,
+              "extraData": [
+                1065353216,
+                1065353216,
+                1069547520
+              ]
+            },
+            {
+              "type": "RangeType",
+              "id": "CHK_COMM1F_SB_02",
+              "label": "",
+              "layerIdx": -1,
+              "posX": -9.515327,
+              "posY": -6.5,
+              "posZ": 0,
+              "ukn1": 0,
+              "ukn2": 1,
+              "extraData": [
+                1065353216,
+                1065353216,
+                1069547520
+              ]
+            },
+            {
+              "type": "RangeType",
+              "id": "CHK_COMM1F_SB_03",
+              "label": "",
+              "layerIdx": -1,
+              "posX": -12.7794323,
+              "posY": -6.5,
+              "posZ": 0,
+              "ukn1": 0,
+              "ukn2": 1,
+              "extraData": [
+                1065353216,
+                1065353216,
+                1069547520
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "StartPoint",
+      "id": "StartPoint",
+      "items": [
+        {
+          "type": "PointType",
+          "id": "EV_TW01_COMM01F_START_POINT01",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": -8.288079,
+          "posY": -3.934496,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "EV_TW01_COMM01F_START_POINT02",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": 0.112091318,
+          "posY": 0.03057667,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        }
+      ]
+    },
+    {
+      "type": "NextTriggerPoint",
+      "id": "NextTriggerPoint"
+    },
+    {
+      "type": "NextTriggerChar",
+      "id": "NextTriggerChar",
+      "items": [
+        {
+          "type": "CharaType",
+          "id": "DEDENNE",
+          "label": "DEDENNE",
+          "layerIdx": -1,
+          "posX": -0.3047404,
+          "posY": 0.9367946,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "KirakKiraPoints",
+      "id": "KirakKiraPoints",
+      "items": [
+        {
+          "type": "PointType",
+          "id": "KP_00",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": -8.223216,
+          "posY": 4.31801176,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "KP_01",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": -13.502388,
+          "posY": 3.98528528,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "KP_02",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": -14.0156841,
+          "posY": -4.402664,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "KP_03",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": 10.528492,
+          "posY": -0.098570995,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "KP_04",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": 10.3128767,
+          "posY": 0.7885741,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "KP_RARE_00",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": -1.58244383,
+          "posY": 1.65110171,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        },
+        {
+          "type": "PointType",
+          "id": "KP_RARE_01",
+          "label": "LabelPointDefault",
+          "layerIdx": -1,
+          "posX": -17.60196,
+          "posY": -0.150291637,
+          "posZ": 0,
+          "ukn1": 0,
+          "ukn2": 1
+        }
+      ]
+    },
+    {
+      "type": "timeline#sub01_150",
+      "id": "timeline#sub01_150",
+      "items": [
+        {
+          "type": "CharaType",
+          "id": "DEDENNE",
+          "label": "DEDENNE",
+          "layerIdx": -1,
+          "posX": -0.174345732,
+          "posY": -0.5462931,
+          "posZ": 0,
+          "ukn1": 3248488448,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "timeline#sub01_170",
+      "id": "timeline#sub01_170",
+      "items": [
+        {
+          "type": "CharaType",
+          "id": "DEDENNE",
+          "label": "DEDENNE",
+          "layerIdx": -1,
+          "posX": -0.174345732,
+          "posY": -0.5462931,
+          "posZ": 0,
+          "ukn1": 3248488448,
+          "ukn2": 1,
+          "extraData": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "name": "LAYER_00",
+      "data1": 1,
+      "data2": 255,
+      "data3": 255,
+      "data4": 128,
+      "ukn1": 0,
+      "ukn2": 0
+    },
+    {
+      "name": "LAYER_01",
+      "data1": 1,
+      "data2": 128,
+      "data3": 255,
+      "data4": 128,
+      "ukn1": 0,
+      "ukn2": 0
+    },
+    {
+      "name": "LAYER_02",
+      "data1": 1,
+      "data2": 255,
+      "data3": 128,
+      "data4": 192,
+      "ukn1": 0,
+      "ukn2": 0
+    },
+    {
+      "name": "LAYER_03",
+      "data1": 1,
+      "data2": 255,
+      "data3": 128,
+      "data4": 64,
+      "ukn1": 0,
+      "ukn2": 0
+    },
+    {
+      "name": "LAYER_04",
+      "data1": 1,
+      "data2": 0,
+      "data3": 128,
+      "data4": 255,
+      "ukn1": 0,
+      "ukn2": 0
+    },
+    {
+      "name": "LAYER_05",
+      "data1": 1,
+      "data2": 128,
+      "data3": 128,
+      "data4": 0,
+      "ukn1": 0,
+      "ukn2": 0
+    },
+    {
+      "name": "LAYER_06",
+      "data1": 1,
+      "data2": 192,
+      "data3": 192,
+      "data4": 192,
+      "ukn1": 0,
+      "ukn2": 0
+    }
+  ]
+}
