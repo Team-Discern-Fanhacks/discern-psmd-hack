@@ -1,10 +1,6 @@
 dofile("script/include/inc_all.lua")
 dofile("script/include/inc_event.lua")
 
-local function WINDOW_Talk(ch, str)
-  WINDOW:Talk(ch, str:gsub(" ","쐃"))
-end
-
 
 function groundInit()
 end

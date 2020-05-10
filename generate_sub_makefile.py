@@ -3,7 +3,7 @@ import os
 ROOT_DISCERN_FOLDER = ""
 PATCH_FOLDER = os.path.join(ROOT_DISCERN_FOLDER, "patch")
 TARGET_FILE = os.path.join(ROOT_DISCERN_FOLDER, "submake.mk")
-
+TMP_FOLDER = os.path.join(ROOT_DISCERN_FOLDER, "make_tmp")
 print("starting generation of the sub makefile")
 
 #name: (input, script)
@@ -26,15 +26,27 @@ for chapter_folder_name in os.listdir(discern_folder):
 
         if "talk.lua" not in files:
             raise BaseException("the folder {} doesn't have a talk.lua file".format(scene_folder))
-        pos_script_in_patch = os.path.join("script", "discern", chapter_folder_name, scene_folder_name, "talk.lua")
-        instruction[os.path.join(PATCH_FOLDER, pos_script_in_patch)] = ([os.path.join(scene_folder, "talk.lua")], "$(MKDIR) -p {}\n$(LUAC) -p {}\n$(CP) {} {}".format(
-            os.path.dirname(os.path.join(PATCH_FOLDER, pos_script_in_patch)),
-            os.path.join(scene_folder, "talk.lua"),
-            os.path.join(scene_folder, "talk.lua"),
-            os.path.join(PATCH_FOLDER, pos_script_in_patch)
+
+        talk_file_path = os.path.join(scene_folder, "talk.lua")
+
+        pos_patched_script = os.path.join(TMP_FOLDER, "script_scenario_managed", chapter_folder_name, scene_folder_name, "talk.lua")
+        instruction[pos_patched_script] = ([talk_file_path, "patch_script.py"], "$(MKDIR) -p {}\npython3 patch_script.py {} {}".format(
+            os.path.dirname(pos_patched_script),
+            talk_file_path,
+            pos_patched_script
+        ))
+
+
+
+        pos_script = os.path.join(PATCH_FOLDER, "script", "discern", chapter_folder_name, scene_folder_name, "talk.lua")
+        instruction[pos_script] = ([pos_patched_script], "$(MKDIR) -p {}\n$(LUAC) -p {}\n$(CP) {} {}".format(
+            os.path.dirname(pos_script),
+            pos_patched_script,
+            pos_patched_script,
+            pos_script,
         ))
         files.remove("talk.lua")
-        instruction["SCRIPTS"][0].append(os.path.join(PATCH_FOLDER, pos_script_in_patch))
+        instruction["SCRIPTS"][0].append(pos_script)
 
 
         to_remove = []
