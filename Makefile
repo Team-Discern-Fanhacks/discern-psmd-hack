@@ -10,6 +10,10 @@ ALLSUBMAKE: submake.mk
 submake.mk: generate_sub_makefile.py
 	python3 generate_sub_makefile.py
 
+
+patch.zip: patch
+	zip -r patch.zip patch
+	
 patch/script/script_entry_list.bin: script_entry_list.json
 	mkdir -p patch/script
 	script_entry_list_tool --input script_entry_list.json --output patch/script/script_entry_list.bin fromjson
