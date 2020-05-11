@@ -24,9 +24,9 @@ The game can also read uncompressed file, so we don't need to compress them in t
 
 This hack use one lua file by scene, as in the base game.
 
-To learn how to use lua, read the [lua subchapter](./script/lua.md).
+To learn how to use lua, read the [lua subchapter](./lua.md).
 
 ## About PLB
 `PLB` files contain additional information about a sequence, such as the initial position of character/object, camera data, and a list of named coordinate, thus they can potentially be selected with a graphical tool (that we don't have, so we need to use the eddyk28 mod to get those).
 
-To learn how to use plb, read the [plb chapter](./script/plb.md)
+To learn how to use plb, read the [plb chapter](./plb.md)
