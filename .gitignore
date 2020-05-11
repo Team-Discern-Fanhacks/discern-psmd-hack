@@ -3,3 +3,4 @@ submake.mk
 patch.zip
 make_tmp
 win86_64-binary
+book/book
