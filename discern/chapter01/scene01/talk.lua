@@ -6,6 +6,9 @@ function groundInit()
 end
 function groundStart()
 end
+function groundEnd()
+end
+
 function discern_c01_s01_01_init()
 end
 function discern_c01_s01_01_start()
@@ -151,9 +154,4 @@ function discern_c01_s01_02_start()
 
 end
 function discern_c01_s01_02_end()
-end
-
-
-
-function groundEnd()
 end
