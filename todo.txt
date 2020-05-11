@@ -1,5 +1,8 @@
 - book
 	- lua
+		- point to ressource to learn lua
+		- function definition
+		- link to the gith repo with the decompressed script
 	- plb
 	- order
 	- how to access somewhere in the game story
