@@ -30,7 +30,7 @@ for chapter_folder_name in os.listdir(discern_folder):
         talk_file_path = os.path.join(scene_folder, "talk.lua")
 
         pos_patched_script = os.path.join(TMP_FOLDER, "script_scenario_managed", chapter_folder_name, scene_folder_name, "talk.lua")
-        instruction[pos_patched_script] = ([talk_file_path, "patch_script.py"], "$(MKDIR) -p {}\npython3 patch_script.py {} {}".format(
+        instruction[pos_patched_script] = ([talk_file_path, "patch_script.py"], "$(MKDIR) -p {}\n$(PYTHON3) patch_script.py {} {}".format(
             os.path.dirname(pos_patched_script),
             talk_file_path,
             pos_patched_script

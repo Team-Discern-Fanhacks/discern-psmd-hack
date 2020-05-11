@@ -1,4 +1,2 @@
-PLBEDIT = wine ~/Téléchargements/plbEdit.exe
-CP = cp -v
-MKDIR = mkdir -v
-LUAC = luac
+#include config/windows-x86_64-prebuilt.mk
+include config/linux-system.mk

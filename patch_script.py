@@ -1,9 +1,10 @@
+import codecs
 import sys
 
 source = sys.argv[1]
 dest = sys.argv[2]
 
-f = open(source)
+f = codecs.open(source, "r", "utf-8")
 source_script = f.read()
 f.close()
 
@@ -26,6 +27,6 @@ for line in source_script.split("\n"):
     else:
         result_script += line+"\n"
 
-f = open(dest, "w")
+f = codecs.open(dest, "w", "utf-8")
 f.write(result_script)
 f.close()

@@ -8,48 +8,48 @@ ALLSUBMAKE: submake.mk
 	${MAKE} -f submake.mk
 
 submake.mk: generate_sub_makefile.py
-	python3 generate_sub_makefile.py
+	${PYTHON3} generate_sub_makefile.py
 
 
 patch.zip: patch
-	zip -r patch.zip patch
+	$(ZIP) -r patch.zip patch
 
 patch/script/script_entry_list.bin: script_entry_list.json
-	mkdir -p patch/script
-	script_entry_list_tool --input script_entry_list.json --output patch/script/script_entry_list.bin fromjson
+	${MKDIR} -p patch/script
+	$(SCRIPT_ENTRY_LIST_TOOL) --input script_entry_list.json --output patch/script/script_entry_list.bin fromjson
 
 
 patch/script/script_flow_data_all: patch/script/script_flow_data_us.bin patch/script/script_flow_data_fr.bin patch/script/script_flow_data_ge.bin patch/script/script_flow_data_it.bin patch/script/script_flow_data_sp.bin patch/script/script_flow_data.bin
 
 patch/script/script_flow_data.bin: script_flow_data.json
-	mkdir -p patch/script
-	flowtool --input script_flow_data.json --output patch/script/script_flow_data.bin fromjson
+	${MKDIR} -p patch/script
+	${FLOWTOOL} --input script_flow_data.json --output patch/script/script_flow_data.bin fromjson
 
 patch/script/script_flow_data_us.bin: patch/script/script_flow_data.bin
-	cp --reflink=auto patch/script/script_flow_data.bin patch/script/script_flow_data_us.bin
+	$(CP) patch/script/script_flow_data.bin patch/script/script_flow_data_us.bin
 
 patch/script/script_flow_data_fr.bin: patch/script/script_flow_data.bin
-	cp --reflink=auto patch/script/script_flow_data.bin patch/script/script_flow_data_fr.bin
+	$(CP) patch/script/script_flow_data.bin patch/script/script_flow_data_fr.bin
 
 patch/script/script_flow_data_ge.bin: patch/script/script_flow_data.bin
-	cp --reflink=auto patch/script/script_flow_data.bin patch/script/script_flow_data_ge.bin
+	$(CP) patch/script/script_flow_data.bin patch/script/script_flow_data_ge.bin
 
 patch/script/script_flow_data_sp.bin: patch/script/script_flow_data.bin
-	cp --reflink=auto patch/script/script_flow_data.bin patch/script/script_flow_data_sp.bin
+	$(CP) patch/script/script_flow_data.bin patch/script/script_flow_data_sp.bin
 
 patch/script/script_flow_data_it.bin: patch/script/script_flow_data.bin
-	cp --reflink=auto patch/script/script_flow_data.bin patch/script/script_flow_data_it.bin
+	$(CP) patch/script/script_flow_data.bin patch/script/script_flow_data_it.bin
 
 
 uninstall:
-	rm -rv ~/.local/share/citra-emu/load/mods/0004000000174600/romfs
+	$(RM) -rv $(INSTALLDIR)
 
 install: patch
-	mkdir -p ~/.local/share/citra-emu/load/mods/0004000000174600/romfs
-	cp -rv patch/* ~/.local/share/citra-emu/load/mods/0004000000174600/romfs
+	${MKDIR} -p $(INSTALLDIR)
+	${CP} -r patch/* $(INSTALLDIR)
 
 clean:
-	rm -rfv patch/
-	rm -fv submake.mk
-	rm -fv patch.zip
-	rm -rfv make_tmp
+	$(RMRECUR) patch
+	$(RM) submake.mk
+	$(RM) patch.zip
+	$(RMRECUR) make_tmp
