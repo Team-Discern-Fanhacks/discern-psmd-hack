@@ -6,3 +6,5 @@
 	- plb
 	- order
 	- how to access somewhere in the game story
+- compilation
+	- check sequence id in plb at compile time
