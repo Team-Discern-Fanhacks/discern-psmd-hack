@@ -8,4 +8,5 @@ SCRIPT_ENTRY_LIST_TOOL = win86_64-binary/script_entry_list_tool.exe
 FLOWTOOL = win86_64-binary/flowtool.exe
 RM = del
 RMRECUR = rmdir /s /q
+MDBOOK = MdBookNotConfiguredForWindow
 INSTALLDIR = C:/Users/$(USER)/Application\ Data/Citra/load/mods/0004000000174600/romfs

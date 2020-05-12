@@ -1,6 +1,6 @@
 include config.mk
 
-.PHONY: clean install uninstall patch patch/script/script_flow_data_all patch/script/discern SUBALL submake.mk ALLSUBMAKE
+.PHONY: clean install uninstall patch patch/script/script_flow_data_all patch/script/discern SUBALL submake.mk ALLSUBMAKE book/book
 
 patch: patch/script/script_entry_list.bin patch/script/script_flow_data_all ALLSUBMAKE
 
@@ -10,9 +10,14 @@ ALLSUBMAKE: submake.mk
 submake.mk: generate_sub_makefile.py
 	${PYTHON3} generate_sub_makefile.py
 
+book/book:
+	${MDBOOK} build book/
+
+book.zip: book/book
+	${ZIP} -r book.zip book/book
 
 patch.zip: patch
-	$(ZIP) -r patch.zip patch
+	${ZIP} -r patch.zip patch
 
 patch/script/script_entry_list.bin: script_entry_list.json
 	${MKDIR} -p patch/script
