@@ -66,7 +66,7 @@ end
 Once you have defined all useful function, you need to edit the SEQUENCEID_start() function. Althougth it need more work, here is some basic function and information that are usefull
 
 ### Fadding in the camera
-At the beggining of a cutscene, the screen is black. You can can use the `SCREEN_A:FadeIn(TimeSec(TIME), true)`, to made a fadeout of `TIME` second (replace it with the good time), and wait the end of the fadeout
+At the beggining of a cutscene, the screen is black. You can use the `SCREEN_A:FadeIn(TimeSec(TIME), true)`, to made a fadeout of `TIME` second (replace it with the good time), and wait the end of the fadeout
 ### WINDOW_Talk
 WINDOW_Talk is a function used at compile time, that transform to WINDOW:Talk (made a character speak). You can write it like `WINDOW_Talk(SymAct("HERO"), "Hello world")`. The compilation will ensure that the space are preserved
 ### About space
