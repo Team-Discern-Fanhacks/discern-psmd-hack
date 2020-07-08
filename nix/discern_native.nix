@@ -19,6 +19,7 @@ source: stdenv.mkDerivation {
 	src = source;
 
 	configurePhase = ''
+		export WINEDEBUG=-all
 		export WINEPREFIX=$(mktemp -d)
 		wineboot
 		echo "include config/nix-ci.mk
