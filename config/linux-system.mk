@@ -1,4 +1,4 @@
-PLBEDIT = wine ~/Téléchargements/plbEdit.exe
+PLBEDIT = wine ./win86_64-binary/plbEdit.exe
 CP = cp -v --reflink=auto
 MKDIR = mkdir -v
 LUAC = luac
