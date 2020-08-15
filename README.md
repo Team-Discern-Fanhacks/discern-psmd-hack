@@ -18,3 +18,12 @@ replacing (argument) with possibly:
 - "patch" to generate the patch folder, that contain the patch to be applied to the romfs
 - "install" to generate and place the patch in the romfs patch folder of citra for the US version of the patch, allowing quick test (you need a recent version of citra, however)
 - "patch.zip" to generate the patch.zip folder, that can be redistrubed
+
+#TODO:
+- a guide on how to apply the patch
+- config.mk.md
+- function definition
+- a tutorial
+- point to a tutorial for git (github desktop ?)
+- autogenerate boilerplace (end, start, ground...)
+- content EddyK28 about getting coordinate of place in place that doesn't have freemove
